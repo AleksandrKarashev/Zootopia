@@ -54,7 +54,9 @@ const UserData = () => {
    }, [messageResult, setMessageResult])
 
    useEffect(() => {
-      const id = window.location.pathname.split("/")[2];
+      // const id = window.location.pathname.split("/")[2];//browserrouter
+      let location = (window.location.hash.split("/"));//hashrouter
+      const id = location[location.length - 1];
       setUserId(id)
 
       const fetchUser = async () => {

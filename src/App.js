@@ -7,7 +7,7 @@ const App = () => {
    const routes = useRoutes();
 
    return (
-      <HashRouter basename="/">
+      <HashRouter>
          <div id="app" >
             {routes}
          </div >
