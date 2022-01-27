@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Zootopia/static/css/main.f8816596.css",
-    "main.js": "/Zootopia/static/js/main.64509219.js",
+    "main.js": "/Zootopia/static/js/main.c924561c.js",
     "static/media/MochiyPopPOne-Regular.ttf": "/Zootopia/static/media/MochiyPopPOne-Regular.a343480e7534e19d0c78.ttf",
     "static/media/crowd2.jpg": "/Zootopia/static/media/crowd2.8c2b361008e0fc42e10f.jpg",
     "static/media/zootopia-logo.png": "/Zootopia/static/media/zootopia-logo.03466bd1ee48cef2b89c.png",
@@ -17,10 +17,10 @@
     "static/media/Big-min.jpg": "/Zootopia/static/media/Big-min.1bced9e820a6e25c0dec.jpg",
     "index.html": "/Zootopia/index.html",
     "main.f8816596.css.map": "/Zootopia/static/css/main.f8816596.css.map",
-    "main.64509219.js.map": "/Zootopia/static/js/main.64509219.js.map"
+    "main.c924561c.js.map": "/Zootopia/static/js/main.c924561c.js.map"
   },
   "entrypoints": [
     "static/css/main.f8816596.css",
-    "static/js/main.64509219.js"
+    "static/js/main.c924561c.js"
   ]
 }
