@@ -44,7 +44,7 @@ const UserData = () => {
    const female = [Rabbit, Daughter, Bellwether, Wife];
 
    function getRandomInt(min, max) {
-      return Math.floor(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
+      return Math.floor(Math.random() * (max - min) + min);
    }
 
    const { loading, request, message, clearMessage } = useHttp();

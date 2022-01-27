@@ -15,11 +15,8 @@ const UsersListPage = () => {
 
    const [pageN, setPageN] = useState(1);
    const [usersList, setUsersList] = useState([]);
-
    const navigate = useNavigate();
-
    const { loading, request } = useHttp();
-
 
    useEffect(() => {
 
