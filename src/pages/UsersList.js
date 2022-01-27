@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-
 import PaginationComponent from '../components/pagination';
 import SpinnerComponent from '../components/spinner';
 import { useHttp } from '../hooks/http.hook';
@@ -10,7 +9,6 @@ import { IoMdPersonAdd, IoMdArrowRoundDown } from 'react-icons/io';
 import "../styles/common.css";
 import "../styles/usersList.css";
 
-
 const UsersListPage = () => {
 
    const [pageN, setPageN] = useState(1);
@@ -19,7 +17,6 @@ const UsersListPage = () => {
    const { loading, request } = useHttp();
 
    useEffect(() => {
-
       const fetchUsers = async () => {
          try {
             const users = await request(`https://gorest.co.in/public/v1/users?page=${pageN}`);
@@ -32,14 +29,14 @@ const UsersListPage = () => {
 
    return (
       <div id="usersList" className='toCenter'>
+         <div id="infoTab">
+            <span>Click on table to update an existing inhabitant <IoMdArrowRoundDown /></span>
+            <Button variant="warning" onClick={() => navigate("/usercreate")}>Add a new inhabitant <IoMdPersonAdd /></Button>
+         </div>
          {
             (loading) ? <SpinnerComponent /> :
                <>
-                  <div id="infoTab">
-                     <span>Click on table to update an existing inhabitant <IoMdArrowRoundDown /></span>
-                     <Button variant="warning" onClick={() => navigate("/usercreate")}>Add a new resident <IoMdPersonAdd /></Button>
-                  </div>
-                  <Table responsive striped bordered hover id="usersTable" >
+                  <Table responsive striped bordered hover id="usersTable" className='mb-0' >
                      <thead>
                         <tr>
                            <th>Inhabitant</th>

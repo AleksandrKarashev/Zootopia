@@ -1,7 +1,6 @@
 import React from "react";
 import { ButtonGroup, ToggleButton } from "react-bootstrap";
 
-
 const ToggleButtonActiveComponent = ({ userStatus, func }) => {
    return (
       <ButtonGroup>

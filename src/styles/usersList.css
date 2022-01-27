@@ -1,3 +1,8 @@
+#usersList {
+   min-height: 40em;
+   background-color: #D1FBE0;
+}
+
 #usersTable {
    text-align: left;
    background-color: #D1FBE0;
@@ -17,3 +22,5 @@
    color: #DF8500;
    background-color: #00CF81;
 }
+
+/* min-height: 34em; */

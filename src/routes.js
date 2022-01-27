@@ -3,10 +3,12 @@ import { Navigate, Route, Routes } from 'react-router-dom';
 import UserData from './pages/UserData';
 import UserCreate from './pages/UserCreate';
 import UsersListPage from './pages/UsersList';
+import Footer from './components/footer';
+
 import Zootopia from "./media/zootopia-logo.png";
 
-
 const useRoutes = () => {
+
    return (
       <>
          <div id="logoContainer" className="py-3">
@@ -18,9 +20,9 @@ const useRoutes = () => {
             <Route exact path='/usercreate' element={<UserCreate />} />
             <Route path="*" element={<Navigate replace to="/" />} />
          </Routes>
+         <Footer />
       </>
    )
 }
-
 
 export default useRoutes;

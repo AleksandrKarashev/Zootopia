@@ -5,6 +5,7 @@
 .backGround {
    padding: 2em 0;
    background-color: #D1FBE0;
+   min-height: 34em;
    text-align: left;
 }
 

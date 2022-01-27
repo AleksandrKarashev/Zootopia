@@ -2,12 +2,11 @@ import React from "react";
 import { Pagination } from 'react-bootstrap';
 import "./pagination.css";
 
-
 const PaginationComponent = ({ pageN, setPageN }) => {
 
    let pages = [1, 2, 3, 4, 5, 6, 7, 8, 9];
    return (
-      <div>
+      <div className="paginationContainer">
          <Pagination id="pagination">
             {
                pages.map((page, index) =>

@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
-import { ButtonGroup, ToggleButton, Form, Container, Row, Col } from "react-bootstrap";
 import Arrowback from "../components/arrowBack";
 import SpinnerComponent from "../components/spinner";
 import ButtonComponent from "../components/button";
 import FormGroupsComponent from "../components/formGroups";
 import MessageResult from "../components/messageResult";
-
+import { ButtonGroup, ToggleButton, Form, Container, Row, Col } from "react-bootstrap";
 import { useHttp } from "../hooks/http.hook";
+
 
 import Lion from "../media/male/Lion-min.png";
 import Big from "../media/male/Big-min.jpg";
@@ -178,14 +178,14 @@ const UserData = () => {
                               func={updateUser}
                               loading={loading}
                               isClickProcessed={updateLoading}
-                              text="Update User" />
+                              text="Update" />
 
                            <ButtonComponent
                               color="danger"
                               func={deleteUser}
                               loading={loading}
                               isClickProcessed={deleteLoading}
-                              text="Delete User" />
+                              text="Delete" />
                         </Form.Group>
                      </Form>
                   </Col>

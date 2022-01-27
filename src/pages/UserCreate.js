@@ -1,21 +1,21 @@
 import React, { useEffect, useState } from "react";
-import { ButtonGroup, Col, Container, Form, Row, ToggleButton } from "react-bootstrap";
 import Arrowback from "../components/arrowBack";
-
-import { useHttp } from "../hooks/http.hook";
-
-import Crowd from "../media/crowd2.jpg";
 import ButtonComponent from "../components/button";
 import ToggleButtonActiveComponent from "../components/toggleButtonActive";
 import FormGroupsComponent from "../components/formGroups";
 import MessageResult from "../components/messageResult";
+import { useHttp } from "../hooks/http.hook";
+import { ButtonGroup, Col, Container, Form, Row, ToggleButton } from "react-bootstrap";
+
+import Crowd from "../media/crowd2.jpg";
+
 
 const UserCreate = () => {
 
    const [userName, setUserName] = useState("");
    const [userEmail, setUserEmail] = useState("");
-   const [userGender, setUserGender] = useState("");
-   const [userStatus, setUserStatus] = useState("");
+   const [userGender, setUserGender] = useState("female");
+   const [userStatus, setUserStatus] = useState("active");
    const [messageResult, setMessageResult] = useState("");
 
    const { loading, request, message, clearMessage } = useHttp();
@@ -98,7 +98,7 @@ const UserCreate = () => {
                         func={createUserFunc}
                         loading={loading}
                         isClickProcessed={loading}
-                        text="Create User" />
+                        text="Add Inhabitant" />
                   </Form>
                </Col>
             </Row>

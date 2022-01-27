@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Form } from "react-bootstrap";
 
-
 const FormGroupsComponent = ({ message, userName, setUserName, userEmail, setUserEmail, clearMessage }) => {
 
    const [userNameError, setUserNameError] = useState("");
@@ -26,7 +25,6 @@ const FormGroupsComponent = ({ message, userName, setUserName, userEmail, setUse
       setUserEmailError(null)
    }, [userEmail, setUserEmail, setUserEmail, clearMessage])
 
-
    return (
       <>
          <Form.Group className="mb-3" controlId="formBasicName">
@@ -39,7 +37,6 @@ const FormGroupsComponent = ({ message, userName, setUserName, userEmail, setUse
                   {userNameError}
                </Form.Text> : ""}
          </Form.Group>
-
 
          <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Label>Email</Form.Label>
