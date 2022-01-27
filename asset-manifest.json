@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.ed8a951e.css",
-    "main.js": "/static/js/main.6bc59996.js",
-    "static/media/MochiyPopPOne-Regular.ttf": "/static/media/MochiyPopPOne-Regular.a343480e7534e19d0c78.ttf",
-    "static/media/crowd2.jpg": "/static/media/crowd2.8c2b361008e0fc42e10f.jpg",
-    "static/media/zootopia-logo.png": "/static/media/zootopia-logo.03466bd1ee48cef2b89c.png",
-    "static/media/Lion-min.png": "/static/media/Lion-min.f6d43d1b0ca47d0555c8.png",
-    "static/media/cat-min.png": "/static/media/cat-min.e7c78e206ff6ec4289bf.png",
-    "static/media/sleepy-min.jpg": "/static/media/sleepy-min.0956c4a7a253e95c0f3b.jpg",
-    "static/media/112707-min.jpg": "/static/media/112707-min.5ede673460dcdb73202b.jpg",
-    "static/media/daughter-min.jpg": "/static/media/daughter-min.dd6482e33de7701f4061.jpg",
-    "static/media/wife-min.jpg": "/static/media/wife-min.cc1b34d32e7b43f09c9f.jpg",
-    "static/media/rabbit-min.jpg": "/static/media/rabbit-min.ad94078b4a984c4cf820.jpg",
-    "static/media/Finnick_Zootopia-min.jpg": "/static/media/Finnick_Zootopia-min.cc2c36caf3f8cfec97a3.jpg",
-    "static/media/lis-min.jpg": "/static/media/lis-min.cdc5a98a33b93d430590.jpg",
-    "static/media/Big-min.jpg": "/static/media/Big-min.1bced9e820a6e25c0dec.jpg",
-    "index.html": "/index.html",
-    "main.ed8a951e.css.map": "/static/css/main.ed8a951e.css.map",
-    "main.6bc59996.js.map": "/static/js/main.6bc59996.js.map"
+    "main.css": "/Zootopia/static/css/main.f8816596.css",
+    "main.js": "/Zootopia/static/js/main.15c584b4.js",
+    "static/media/MochiyPopPOne-Regular.ttf": "/Zootopia/static/media/MochiyPopPOne-Regular.a343480e7534e19d0c78.ttf",
+    "static/media/crowd2.jpg": "/Zootopia/static/media/crowd2.8c2b361008e0fc42e10f.jpg",
+    "static/media/zootopia-logo.png": "/Zootopia/static/media/zootopia-logo.03466bd1ee48cef2b89c.png",
+    "static/media/Lion-min.png": "/Zootopia/static/media/Lion-min.f6d43d1b0ca47d0555c8.png",
+    "static/media/cat-min.png": "/Zootopia/static/media/cat-min.e7c78e206ff6ec4289bf.png",
+    "static/media/sleepy-min.jpg": "/Zootopia/static/media/sleepy-min.0956c4a7a253e95c0f3b.jpg",
+    "static/media/112707-min.jpg": "/Zootopia/static/media/112707-min.5ede673460dcdb73202b.jpg",
+    "static/media/daughter-min.jpg": "/Zootopia/static/media/daughter-min.dd6482e33de7701f4061.jpg",
+    "static/media/wife-min.jpg": "/Zootopia/static/media/wife-min.cc1b34d32e7b43f09c9f.jpg",
+    "static/media/rabbit-min.jpg": "/Zootopia/static/media/rabbit-min.ad94078b4a984c4cf820.jpg",
+    "static/media/Finnick_Zootopia-min.jpg": "/Zootopia/static/media/Finnick_Zootopia-min.cc2c36caf3f8cfec97a3.jpg",
+    "static/media/lis-min.jpg": "/Zootopia/static/media/lis-min.cdc5a98a33b93d430590.jpg",
+    "static/media/Big-min.jpg": "/Zootopia/static/media/Big-min.1bced9e820a6e25c0dec.jpg",
+    "index.html": "/Zootopia/index.html",
+    "main.f8816596.css.map": "/Zootopia/static/css/main.f8816596.css.map",
+    "main.15c584b4.js.map": "/Zootopia/static/js/main.15c584b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed8a951e.css",
-    "static/js/main.6bc59996.js"
+    "static/css/main.f8816596.css",
+    "static/js/main.15c584b4.js"
   ]
 }
