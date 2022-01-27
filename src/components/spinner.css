@@ -1,0 +1,7 @@
+#spinner {
+   position: fixed !important;
+   top: calc(50% - 5em);
+   left: calc(50% - 5em);
+   height: 10em;
+   width: 10em;
+}

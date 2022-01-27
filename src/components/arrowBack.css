@@ -1,0 +1,13 @@
+#irrowBack {
+   text-align: left;
+}
+
+#irrowBack>* {
+   width: 2em;
+   height: 2em;
+   margin-left: 1em;
+   color: #00CF81;
+   background-color: #c0ebcf;
+   border-radius: 30%;
+   cursor: pointer;
+}

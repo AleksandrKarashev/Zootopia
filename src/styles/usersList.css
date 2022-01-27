@@ -1,0 +1,19 @@
+#usersTable {
+   text-align: left;
+   background-color: #D1FBE0;
+   color: #005168 !important;
+   cursor: pointer;
+}
+
+#logoContainer img {
+   width: 100%;
+   max-width: 30em;
+}
+
+#infoTab {
+   display: flex;
+   justify-content: space-between;
+   padding: 1em;
+   color: #DF8500;
+   background-color: #00CF81;
+}

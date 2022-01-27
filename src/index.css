@@ -1,13 +1,32 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+   height: 100%;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+
+   background-color: #005168;
+   color: #00CF81;
+   min-height: 100vh;
+
+   font-family: "MochiyPopPOne-Regular", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
 }
 
+#app {
+   height: 100%;
+   width: 100%;
+   text-align: center;
+}
+
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+   font-family: "MochiyPopPOne-Regular", source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+@font-face {
+   font-family: 'MochiyPopPOne-Regular';
+   font-style: normal;
+   font-weight: normal;
+   src: local('MochiyPopPOne-Regular'), url('./fonts/MochiyPopPOne-Regular.ttf') format('opentype');
 }

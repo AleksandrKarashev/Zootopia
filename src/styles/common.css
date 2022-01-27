@@ -1,0 +1,22 @@
+.toCenter {
+   text-align: center;
+}
+
+.backGround {
+   padding: 2em 0;
+   background-color: #D1FBE0;
+   text-align: left;
+}
+
+.UserImageContainer div {
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.UserImageContainer img {
+   border-radius: 5%;
+   max-height: 15em;
+   max-width: 20em;
+}
