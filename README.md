@@ -27,3 +27,5 @@ Observações:
 * Criar o código, publicar na sua conta do github e compartilhar em modo público
 * O prazo para desenvolvimento é de 2 dias após o envio deste teste
 Boa sorte!
+
+(Anotação para mim: para que o projeto funcione corretamente, em 90 dias há que revalidar os tokens)
