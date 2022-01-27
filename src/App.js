@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import useRoutes from './routes.js';
 
 const App = () => {
@@ -7,11 +7,11 @@ const App = () => {
    const routes = useRoutes();
 
    return (
-      <HashRouter basename='/'>
-         <div id="app">
+      <Router>
+         <div div id="app" >
             {routes}
-         </div>
-      </HashRouter>
+         </div >
+      </Router>
    );
 }
 
